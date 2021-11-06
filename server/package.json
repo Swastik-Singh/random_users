@@ -1,0 +1,18 @@
+{
+  "name": "random_users_server",
+  "version": "1.0.0",
+  "description": "A simple NodeJs backend for developing a HTTP server and fetching users from predefined API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Swastik Singh",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
